@@ -1,0 +1,25 @@
+.menu {
+    background-color: var(--bg-med);
+    padding: 3rem 3rem;
+    border-radius: 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu p {
+    font-size: 1.5rem;
+    color: var(--text-normal);
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: var(--highlight);
+    color: var(--text-normal);
+}

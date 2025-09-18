@@ -1,0 +1,56 @@
+:root {
+    --color: 140;
+
+    --bg-dark: hsl(0, 10%, 0%);
+    --bg-med: hsl(var(--color), 8%, 5%);
+    --bg-light: hsl(var(--color), 8%, 10%);
+
+    --text-normal: hsl(var(--color), 8%, 90%);
+    --text-dimmed: hsl(var(--color), 8%, 70%);
+
+    --highlight: hsl(var(--color), 36%, 54%);
+
+    font-family: Arial;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+h2 {
+    color: var(--text-normal);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+p, li, button {
+    color: var(--text-dimmed);
+}
+
+button {
+    font-weight: bold;
+    background-color: var(--bg-light);
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+button:hover {
+    background-color: var(--highlight);
+    color: var(--text-normal);
+}
+
+button:active {
+    opacity: 0.9;
+}

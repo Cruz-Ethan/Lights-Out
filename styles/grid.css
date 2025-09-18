@@ -1,0 +1,26 @@
+.grid {
+    background-color: var(--bg-med);
+    padding: 3rem 3rem;
+    border-radius: 3rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.grid * {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 1rem;
+    background-color: var(--bg-light);
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.grid *:hover {
+    opacity: 0.7;
+}
+
+.grid .on {
+    background-color: var(--highlight);
+}

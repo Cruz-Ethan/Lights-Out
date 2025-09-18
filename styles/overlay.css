@@ -1,0 +1,41 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsla(0, 0%, 0%, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.end-screen {
+    background-color: var(--bg-med);
+    padding: 3rem 3rem;
+    border-radius: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.end-screen * {
+    margin: 0;
+}
+
+.end-screen p {
+    font-size: 1.5rem;
+}
+
+.end-screen button {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.invisible {
+    display: none;
+}

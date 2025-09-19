@@ -11,7 +11,7 @@
     --highlight: hsl(var(--color), 36%, 54%);
 
     font-family: Arial;
-    font-size: 24px;
+    font-size: 1.4vw;
     box-sizing: border-box;
 }
 
@@ -53,4 +53,14 @@ button:hover {
 
 button:active {
     opacity: 0.9;
+}
+
+@media(max-width: 1000px) {
+    :root {
+        font-size: 2vw;
+    }
+    
+    .delete {
+        display: none;
+    }
 }

@@ -1,6 +1,6 @@
 .grid {
     background-color: var(--bg-med);
-    padding: 3rem 3rem;
+    padding: 3rem;
     border-radius: 3rem;
 
     display: grid;

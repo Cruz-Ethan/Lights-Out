@@ -1,6 +1,6 @@
 .menu {
     background-color: var(--bg-med);
-    padding: 3rem 3rem;
+    padding: 3rem;
     border-radius: 3rem;
     
     display: flex;
@@ -22,4 +22,34 @@ button {
 button:hover {
     background-color: var(--highlight);
     color: var(--text-normal);
+}
+
+@media(max-width: 1000px) {
+    :root {
+        font-size: 2vw;
+    }
+
+    body {
+        flex-direction: column;
+        padding: 4rem;
+    }
+
+    .grid * {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .menu p {
+        font-size: 2rem;
+    }
+
+    .menu .score {
+        margin-bottom: 4rem;
+    }
+
+    .menu .home-button {
+        font-size: 2rem;
+        border-radius: 2rem;
+        padding: 1.4rem;
+    }
 }

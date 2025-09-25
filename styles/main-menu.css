@@ -1,0 +1,19 @@
+@media(max-width: 700px) {
+    :root {
+        font-size: 3vh;
+    }
+
+    .menu {
+        background-color: var(--bg-med);
+        padding: 1rem;
+        border-radius: 3rem;
+    }
+
+    .menu * {
+        text-align: center;
+    }
+
+    body {
+        flex-direction: column;
+    }
+}
